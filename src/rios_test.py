@@ -73,6 +73,7 @@ def test_ordenacion_max_min(rios):
     print(selecciona_n_longitudes_mayores(rios,5))    
     print ('-'*10, 'selecciona_n_longitudes_mayores', '20 mayores' )
     print(selecciona_n_longitudes_mayores(rios,20))
+    
 
 def test_ordenacion_max_min_lista_tuplas(rios):
     print ('-'*10, 'ORDENACION, MAXIMO Y MINIMO CON UNA LISTA DE TUPLAS')

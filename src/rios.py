@@ -353,7 +353,3 @@ def media_longitudes_rios_de_continente_2(rios, continente):
     @rtype: float
     '''        
     return statistics.mean (rio.longitud for rio in rios if rio.continente == continente)    
-    
-
-
-
